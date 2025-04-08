@@ -1,0 +1,31 @@
+# Arquivos e pastas do sistema
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.env
+
+# Diretórios do ambiente virtual
+venv/
+env/
+
+# Arquivos criados pelo editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos de migração do Django que não são necessários
+db.sqlite3
+migrations/
+
+# Diretórios estáticos e de mídia (caso gerados automaticamente)
+staticfiles/
+media/
+
+# Configurações locais e sensíveis
+settings_local.py
